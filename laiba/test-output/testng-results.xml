@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-18T20:35:31 IST" name="Suite" finished-at="2024-11-18T20:36:43 IST" duration-ms="71939">
+    <groups>
+    </groups>
+    <test started-at="2024-11-18T20:35:31 IST" name="Test" finished-at="2024-11-18T20:36:43 IST" duration-ms="71939">
+      <class name="AdecoCRM.CRM_Lead">
+        <test-method is-config="true" signature="log()[pri:0, instance:AdecoCRM.CRM_Lead@24aed80c]" started-at="2024-11-18T20:35:31 IST" name="log" finished-at="2024-11-18T20:36:25 IST" duration-ms="53512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method signature="lead()[pri:1, instance:AdecoCRM.CRM_Lead@24aed80c]" started-at="2024-11-18T20:36:25 IST" name="lead" finished-at="2024-11-18T20:36:28 IST" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lead -->
+        <test-method signature="CreateNew()[pri:2, instance:AdecoCRM.CRM_Lead@24aed80c]" started-at="2024-11-18T20:36:28 IST" name="CreateNew" finished-at="2024-11-18T20:36:31 IST" depends-on-methods="AdecoCRM.CRM_Lead.lead" duration-ms="2902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNew -->
+        <test-method signature="AddValue()[pri:3, instance:AdecoCRM.CRM_Lead@24aed80c]" started-at="2024-11-18T20:36:31 IST" name="AddValue" finished-at="2024-11-18T20:36:39 IST" depends-on-methods="AdecoCRM.CRM_Lead.CreateNew" duration-ms="7858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddValue -->
+        <test-method signature="Source()[pri:4, instance:AdecoCRM.CRM_Lead@24aed80c]" started-at="2024-11-18T20:36:39 IST" name="Source" finished-at="2024-11-18T20:36:40 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Source -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AdecoCRM.CRM_Lead@24aed80c]" started-at="2024-11-18T20:36:40 IST" name="teardown" finished-at="2024-11-18T20:36:43 IST" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AdecoCRM.CRM_Lead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
