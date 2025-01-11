@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="AdecoCRM.CRM_ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="AdecoCRM.CRM_PO_SalesOrders">
+        <methods>
+          <include name="log"/>
+          <include name="SalesOrders_Logout"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- AdecoCRM.CRM_PO_SalesOrders -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
